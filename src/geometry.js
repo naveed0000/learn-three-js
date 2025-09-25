@@ -23,7 +23,7 @@ const edges = new THREE.EdgesGeometry( geometry );
 const canvas = document.getElementById("canvas");
 const renderer = new THREE.WebGLRenderer({ canvas });
 document.body.appendChild(renderer.domElement);
-
+  
 
 const highIntensityLight = new THREE.DirectionalLight(0xffffff, 10);
 highIntensityLight.position.set(10, 10, 5);
